@@ -13,5 +13,5 @@ jobs:
           python -c "print('Hello, World!')"
           pip install pytest-playwright
           playwright install
-          python pytest
+          python "pytest"
         
