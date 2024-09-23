@@ -1,0 +1,9 @@
+name: tests
+on: workflow_dispatch
+
+jobs:
+  test:
+    runs-on: ubunty-latest
+    steps:
+      - name: test
+        run: echo test
