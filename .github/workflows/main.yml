@@ -10,6 +10,6 @@ jobs:
       - name: test
         run: |
           echo test
-          python -c print("Hello, World!")
+          python -c "print('Hello, World!')"
           python hi.py
         
