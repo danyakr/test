@@ -5,5 +5,10 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4.1.7
       - name: test
-        run: echo test
+        run: |
+          echo test
+          python
+          print('Hello, World!')
+        
